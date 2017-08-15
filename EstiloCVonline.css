@@ -1,4 +1,6 @@
-body{background-image: url("fondo1.jpg");
+body{
+   background: url("fondo1.jpg") no-repeat;
+   background-size: cover;
   }
 #Container{
   width: 85%;
