@@ -1,3 +1,20 @@
+body{background-image: url("fondo1.jpg");
+  }
+#Container{
+  width: 85%;
+  }
+#Navegación{
+  background: pink;
+  width: 35;
+  padding: 5%;
+  float:left;
+}
+#Cuerpo{
+  background: yellow;
+  padding: 5%;
+  width: 60%;
+  float: right;
+}
 h1 {
   background-image: url();
   color: green;
