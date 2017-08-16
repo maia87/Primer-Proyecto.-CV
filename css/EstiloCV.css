@@ -1,5 +1,5 @@
 body{
-   background: url("fondo1.jpg") no-repeat;
+   background: url("../imagenes/fondo1.jpg") no-repeat;
    background-size: cover;
   }
 #Container{
