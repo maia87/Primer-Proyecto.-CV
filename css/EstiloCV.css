@@ -1,23 +1,63 @@
 body{
-   background: url("../imagenes/fondo1.jpg") no-repeat;
+   background: url("../imagenes/fondo2.jpg") no-repeat;
    background-size: cover;
   }
 #Container{
   width: 85%;
   }
 #Navegación{
-  background: rgba(35, 37, 130,0.7);
-  width: 35;
+  margin-top: 50px;
+  margin-left: 15px;
   padding: 5%;
   float:left;
 }
 #Cuerpo{
-  background: yellow;
   padding: 5%;
   width: 60%;
   float: right;
 }
-h1 {
-  background-image: url();
-  color: green;
+
+h2.linknavegacion{
+  padding: 2% 0% 2% 5%;
+  margin-top: 3% 0% 3% 0%;
+  font-size: 100%;
+  font-family: sans-serif;
+  background: rgb(230, 228, 59);
   }
+
+#presentacion{
+  padding: 4%;
+  margin-bottom: 20px;
+  background: rgb(160, 144, 221);
+  }
+
+
+#formacion{
+  margin-top: 20px;
+  padding: 4%;
+  background: rgb(160, 144, 221);
+}
+
+#experiencia{
+  margin-top: 20px;
+  padding: 4%;
+  background: rgb(160, 144, 221);
+}
+
+#portfolio{
+  margin-top: 20px;
+  padding: 4%;
+  background: rgb(160, 144, 221);
+}
+
+h1 {
+  color: rgb(77, 28, 101);
+  font-family: sans-serif;
+  }
+
+h3.titulos {
+  font-family: cursive;
+  padding-bottom: 1%;
+  border-bottom: 3px solid rgb(247, 79, 68);
+  margin-bottom: 10px;
+}
