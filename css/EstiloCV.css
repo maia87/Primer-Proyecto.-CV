@@ -1,17 +1,18 @@
 body{
-   background: url("../imagenes/fondo2.jpg") no-repeat;
-   background-size: cover;
+   background: rgb(168,219,168);
   }
 #Container{
   width: 85%;
-  }
+    }
 #Navegación{
-  margin-top: 50px;
-  margin-left: 15px;
+  margin-top: 5%;
+  margin-left: 5%;
   padding: 5%;
   float:left;
+  background: ;
 }
 #Cuerpo{
+  margin-top: 0%;
   padding: 5%;
   width: 60%;
   float: right;
@@ -19,45 +20,34 @@ body{
 
 h2.linknavegacion{
   padding: 2% 0% 2% 5%;
-  margin-top: 3% 0% 3% 0%;
-  font-size: 100%;
+  margin: 0%;
+  font-size: 120%;
   font-family: sans-serif;
-  background: rgb(230, 228, 59);
-  }
+  color: Blue;
+    }
 
-#presentacion{
-  padding: 4%;
+a{
+  background-color: rgb(59,134,134);
+  width: 100%;
+  color: white;
+}
+
+.seccion{
+  padding: 2% 4% 4% 4%;
   margin-bottom: 20px;
-  background: rgb(160, 144, 221);
-  }
-
-
-#formacion{
-  margin-top: 20px;
-  padding: 4%;
-  background: rgb(160, 144, 221);
+  background: rgb(121,189,154);
 }
 
-#experiencia{
-  margin-top: 20px;
-  padding: 4%;
-  background: rgb(160, 144, 221);
-}
-
-#portfolio{
-  margin-top: 20px;
-  padding: 4%;
-  background: rgb(160, 144, 221);
-}
 
 h1 {
   color: rgb(77, 28, 101);
-  font-family: sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   }
 
 h3.titulos {
-  font-family: cursive;
+  font-family: Gill Sans / Gill Sans MT, sans-serif;
+  font-size: 150%;
   padding-bottom: 1%;
-  border-bottom: 3px solid rgb(247, 79, 68);
+  border-bottom: 3px solid rgb(59,134,134);
   margin-bottom: 10px;
 }

@@ -1,94 +1,93 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <title>CV online Maiara Cercasi</title>
+<head>
+  <meta charset="utf-8">
+  <title>CV online Maiara Cercasi</title>
 
-    <link rel="stylesheet" type="text/css" href="css/unslider.css">
-    <link rel="stylesheet" type="text/css" href="css/extra.css">
-    <link rel="stylesheet" type="text/css" href="css/EstiloCV.css">
+  <link rel="stylesheet" type="text/css" href="css/unslider.css">
+  <link rel="stylesheet" type="text/css" href="css/extra.css">
+  <link rel="stylesheet" type="text/css" href="css/EstiloCV.css">
 
-    <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/unslider.js"></script>
 
-    <script src="js/unslider.js"></script>
+  <script>
+  jQuery(document).ready(function($) {
+    $('.slider').unslider({
+      arrows: false,
+      autoplay: true
 
-    <script>
-    jQuery(document).ready(function($) {
-      $('.slider').unslider({
-        arrows: false,
-        autoplay: true
-
-      });
     });
-    </script>
+  });
+  </script>
 
-  </head>
+</head>
 
-  <body>
-    <div id="Container">
+<body>
+  <div id="Container">
 
-      <div id="Navegación">
-        <img src="imagenes/pruebaCV.jpg" alt="Foto CV" width="150px" height="150px"/>
-        <h2 class="linknavegacion">Datos Personales</h2>
-        <h2 class="linknavegacion">Formación</h2>
-        <h2 class="linknavegacion">Experiencia</h2>
-        <h2 class="linknavegacion">Portfolio</h2>
+    <div id="Navegación">
+      <img src="imagenes/pruebaCV.jpg" alt="Foto CV" width="150px" height="150px"/>
+      <h2 class="linknavegacion"><a href="#A">Presentación</a></h2>
+      <h2 class="linknavegacion"><a href="#B">Formación</a></h2>
+      <h2 class="linknavegacion"><a href="#C">Experiencia</a></h2>
+      <h2 class="linknavegacion"><a href="#D">Portfolio</a></h2>
+    </div>
+
+    <div id="Cuerpo">
+
+      <div id="presentacion" class="seccion">
+
+        <h3 id="A" class="titulos">Presentación</h3>
+        <h1>MAIARA CERCASI</h1>
+        <p>Estudiante Developer Full Stack</p>
+
+        <ul id="datospersonales">
+          <li>Edad: 30 años</li>
+          <li>Dirección: República del Líbano 693. Maipú</li>
+          <li>Estado civil: soltera</li>
+          <li>Email: maiaracercasi@gmail.com</li>
+          <li>Teléfono: +549 261 154168217</li>
+        </ul>
+        <p>Soy una persona en busca de ....</p>
       </div>
 
-      <div id="Cuerpo">
+      <div id="formacion" class="seccion">
+        <h3 id="B"class="titulos">Formación</h3>
+        <p>Actualmente. Greendemia Academy. Developer Full Stack</p>
+        <p>2004-2013. Universidad Nacional de Cuyo. Licenciatura en Economía.</p>
+      </div>
 
-        <div id="presentacion">
+      <div id="experiencia" class="seccion">
+        <h3 id="C"class="titulos">Experiencia</h3>
+        <p>2016-al presente. Encargada de Parador Café Bar, emprendimiento familiar ubicado en Maipú</p>
+        <p>Marzo 2015-Marzo 2016. Consultor Auxiliar Administrativo. Proyecto BID Mendoza Tecnológica.</p>
+      </div>
 
-          <h3 class="titulos">Quién Soy</h3>
-          <h1>MAIARA CERCASI</h1>
-          <p>Estudiante Developer Full Stack</p>
+      <div id="portfolio" class="seccion">
+        <h3 id="D"class="titulos">Portfolio</h3>
 
-          <ul id="datospersonales">
-            <li>Edad: 30 años</li>
-            <li>Dirección: República del Líbano 693. Maipú</li>
-            <li>Estado civil: soltera</li>
-            <li>Email: maiaracercasi@gmail.com</li>
-            <li>Teléfono: +549 261 154168217</li>
+        <div class="slider">
+          <p>Próximamente...</p>
+          <ul>
+            <li> Proyecto 1: CV online</li>
+            <li> Proyecto 2: Sitio de noticias</li>
+            <li> Proyecto 3: Juego rompecabezas</li>
+            <li> Proyecto 4: Pixel article</li>
+            <li> Proyecto 5: Ciudad Zombie</li>
+            <li> Proyecto 6: Rompecabezas recargado</li>
+            <li> Proyecto 7: Encuestador</li>
+            <li> Proyecto 8: Mapa interactivo</li>
+            <li> Proyecto 9: Qué veo hoy</li>
+            <li> Proyecto 10: Peli vs. Peli</li>
           </ul>
-          <p>Soy una persona en busca de ....</p>
         </div>
-
-        <div id="formacion">
-          <h3 class="titulos">Formación</h3>
-          <p>Actualmente. Greendemia Academy. Developer Full Stack</p>
-          <p>2004-2013. Universidad Nacional de Cuyo. Licenciatura en Economía.</p>
-        </div>
-
-        <div id="experiencia">
-          <h3 class="titulos">Experiencia</h3>
-          <p>2016-al presente. Encargada de Parador Café Bar, emprendimiento familiar ubicado en Maipú</p>
-          <p>Marzo 2015-Marzo 2016. Consultor Auxiliar Administrativo. Proyecto BID Mendoza Tecnológica.</p>
-        </div>
-
-        <div id="portfolio">
-          <h3 class="titulos">Portfolio</h3>
-
-          <div class="slider">
-            <p>Próximamente...</p>
-            <ul>
-              <li> Proyecto 1: CV online</li>
-              <li> Proyecto 2: Sitio de noticias</li>
-              <li> Proyecto 3: Juego rompecabezas</li>
-              <li> Proyecto 4: Pixel article</li>
-              <li> Proyecto 5: Ciudad Zombie</li>
-              <li> Proyecto 6: Rompecabezas recargado</li>
-              <li> Proyecto 7: Encuestador</li>
-              <li> Proyecto 8: Mapa interactivo</li>
-              <li> Proyecto 9: Qué veo hoy</li>
-              <li> Proyecto 10: Peli vs. Peli</li>
-            </ul>
-          </div>
-        </div>
-
-
       </div>
+
 
     </div>
-  </body>
+
+  </div>
+</body>
 </html>
