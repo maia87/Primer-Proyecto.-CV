@@ -4,44 +4,69 @@ body{
 #Container{
   width: 85%;
     }
+
 #Navegación{
-  margin-top: 5%;
-  margin-left: 5%;
-  padding: 5%;
+  margin: 0% 0% 0% 0%;
+  padding: 5% 0% 0% 5%;
+  width: 30%;
   float:left;
-  background: ;
-}
+    }
+
 #Cuerpo{
-  margin-top: 0%;
+  margin: 0%;
   padding: 5%;
-  width: 60%;
+  width: 55%;
   float: right;
+  }
+
+img{
+  margin: 0% 0% 0% 15%;
+  width: 70%;
 }
 
 h2.linknavegacion{
-  padding: 2% 0% 2% 5%;
-  margin: 0%;
+  padding: 0% 0% 0% 9%;
   font-size: 120%;
   font-family: sans-serif;
-  color: Blue;
-    }
+  }
 
-a{
-  background-color: rgb(59,134,134);
-  width: 100%;
-  color: white;
+.linknavegacion a{
+  color: rgb(11,72,107);
+  background-color: rgb(207,240,158);
+  width: 70%;
+  margin-left: 6%;
+  margin-bottom: 0%;
 }
 
 .seccion{
   padding: 2% 4% 4% 4%;
   margin-bottom: 20px;
-  background: rgb(121,189,154);
+  background: rgb(207,240,158);
 }
 
-
-h1 {
+#nombre {
   color: rgb(77, 28, 101);
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 200%;
+  }
+
+h4.negrita{
+  font-weight:bolder;
+  font-size: 105%;
+  color:rgb(11,72,107);
+}
+
+#datospersonales {
+  padding-left: 0%;
+  margin: 4% 0% 4% 0%;
+}
+
+#datospersonales li {
+  border-bottom: 1.5px solid rgb(59,134,134);
+  list-style: none;
+  margin-bottom: 1.5%;
+  font-size: 90%;
+  font-family: Georgia, Serif;
   }
 
 h3.titulos {
@@ -50,4 +75,18 @@ h3.titulos {
   padding-bottom: 1%;
   border-bottom: 3px solid rgb(59,134,134);
   margin-bottom: 10px;
+}
+
+.seccion p{
+  font-size: 90%;
+  font-family: Georgia, Serif;
+  text-align: justify;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+  background-color: none;
+  display: inline;
+  padding: 0px 00px;
+  margin: 0px 0;
 }
