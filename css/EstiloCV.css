@@ -1,92 +1,90 @@
 body{
-   background: rgb(168,219,168);
-  }
+  background: rgb(174,144,168);
+}
+
 #Container{
   width: 85%;
-    }
-
-#Navegación{
-  margin: 0% 0% 0% 0%;
+}
+#Navegacion{
   padding: 5% 0% 0% 5%;
   width: 30%;
   float:left;
-    }
-
+}
 #Cuerpo{
-  margin: 0%;
   padding: 5%;
   width: 55%;
   float: right;
-  }
+}
 
 img{
   margin: 0% 0% 0% 15%;
   width: 70%;
+  border-radius: 10%;
 }
 
-h2.linknavegacion{
+.linknavegacion{
   padding: 0% 0% 0% 9%;
   font-size: 120%;
   font-family: sans-serif;
-  }
+}
 
 .linknavegacion a{
-  color: rgb(11,72,107);
-  background-color: rgb(207,240,158);
-  width: 70%;
   margin-left: 6%;
-  margin-bottom: 0%;
+  width: 70%;
+  color: rgb(11,72,107);
+  background-color: rgb(253,236,144);
 }
 
 .seccion{
-  padding: 2% 4% 4% 4%;
   margin-bottom: 20px;
-  background: rgb(207,240,158);
+  padding: 2% 4% 4% 4%;
+  background: rgb(253,236,144);
+}
+
+.titulos {
+  margin-bottom: 10px;
+  padding-bottom: 1%;
+  border-bottom: 3px solid rgb(136,81,84);
+  color: rgb(136,81,84);
+  font-family: Gill Sans MT, sans-serif;
+  font-size: 150%;
+}
+
+.seccion p li{
+  font-size: 90%;
+  font-family: Georgia, Serif;
 }
 
 #nombre {
-  color: rgb(77, 28, 101);
+  color: rgb(101,20,123);
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: 200%;
-  }
+}
 
-h4.negrita{
+.negrita{
+  color:rgb(11,72,107);
   font-weight:bolder;
   font-size: 105%;
-  color:rgb(11,72,107);
 }
 
-#datospersonales {
-  padding-left: 0%;
+#presentacion ul{
   margin: 4% 0% 4% 0%;
+  padding-left: 0%;
 }
 
-#datospersonales li {
-  border-bottom: 1.5px solid rgb(59,134,134);
-  list-style: none;
+#presentacion li{
   margin-bottom: 1.5%;
-  font-size: 90%;
-  font-family: Georgia, Serif;
-  }
-
-h3.titulos {
-  font-family: Gill Sans / Gill Sans MT, sans-serif;
-  font-size: 150%;
   padding-bottom: 1%;
-  border-bottom: 3px solid rgb(59,134,134);
-  margin-bottom: 10px;
-}
-
-.seccion p{
+  list-style: none;
+  border-bottom: 1.5px solid rgb(136,81,84);
   font-size: 90%;
   font-family: Georgia, Serif;
-  text-align: justify;
 }
 
-a {
+#experiencia a {
+  padding: 0px;
+  margin: 0px;
   font-family: 'Playfair Display', serif;
   background-color: none;
   display: inline;
-  padding: 0px 00px;
-  margin: 0px 0;
 }
